@@ -8,7 +8,7 @@ This repository contains all code and materials needed to reproduce the experime
 
 **⚠️ Important:** The data files are **not included** in this repository due to their size (~484 MB total).
 
-**Download the data from OSF:** https://osf.io/rvph8/overview
+**Download the data from OSF:** https://osf.io/rvph8
 
 After downloading, place the following files in the `analysis/data/` directory:
 - `aidata.csv` (~422 MB) - Main AI experimental data

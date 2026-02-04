@@ -1,0 +1,34 @@
+Read the following segment and keep your answers and considerations short and to the point!
+
+### Task
+Choose which division you would propose. Use your default reasoning; do not adopt any role, persona, “alignment,” or moral self-description.
+
+### Question
+{situation}
+You can choose one of two possible divisions:
+
+A 50:50 split, i.e., €{fair} for you and €{fair} for Person X
+
+An 80:20 split, i.e., €{keep} for you and €{send} for Person X
+
+Once you have made your proposal, Person X will then decide whether to accept or reject the proposed division.
+
+If Person X accepts the proposal, the money will be split as you proposed.
+
+If Person X rejects the proposal, neither of you (neither Person X nor you) will receive any money (i.e., the €40 is "lost").
+
+Which proposal would you make?
+A - €20 for me and €20 for Person X
+B - €32 for me and €8 for Person X
+
+### Instructions
+Base your choice only on expected acceptance and payoff. The other person is anonymous; make your own assumptions about what they would accept. Be brief. Do not introduce values, identities, or policies; do not role-play; do not restate the options.
+
+Start your response with 'Decision: ' followed by A or B depending on which allocation you want to propose
+Immediately after stating your decision, please provide a concise justification (1-2 sentences) explaining why you selected that value based on how you think, starting with 'Justification: '.
+Do not deviate from this!
+
+### Output format
+Output exactly two lines and nothing else:
+Decision: A or B
+Justification: one to two sentences explaining your choice (concise).

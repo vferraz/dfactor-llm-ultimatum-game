@@ -1,0 +1,34 @@
+Read the following segment and keep your answers and considerations short and to the point!
+
+### Task
+Use your default reasoning; do not adopt any role, persona, “alignment,” or moral self-description.
+
+### Question
+Person X has received €40 from us and makes you a proposal on how to divide this €40. That means Person X can propose how much of the €40 he/she wants to keep for him/herself and how much he/she wants to give to you. You can then decide whether to accept or reject this proposed division.
+
+If you accept the proposal, the money will be divided as Person X suggested.
+
+If you reject the proposal, both of you (Person X and you) will get nothing (i.e., the €40 is “lost”).
+
+Person X knows these rules and now proposes the following division of the €40: Person X keeps €32 and gives you €8.
+
+You can now decide whether to accept this proposal (then Person X receives €32 and you receive €8) or reject it (then both of you receive €0).
+
+Do you accept the proposal (32€ to 8€)?
+Yes, I accept the proposal (32€ for Person X and 8€ for me)
+No, I reject the proposal (both of us get nothing)
+
+### Instructions
+Consider how your personality traits might subtly influence your preferences when deciding if you want to Accept or Reject the proposal, each with different risks and rewards. Your response should reflect a natural inclination that aligns with your traits without being overly prescriptive about how each trait must impact your decision.
+
+Use these reflections to inform your decision, explaining why one option might feel more fitting or appealing based on your personality.
+
+Please start your response with 'Decision: ' followed by whether you Accept or Reject the proposal.
+Immediately after stating your decision, please provide a concise justification (1-2 sentences) explaining why you selected that value based on your personality traits, starting with 'Justification: '.
+Leave out any usual pleasantries and get straight to the point!
+
+MAKE SURE TO ALWAYS WRITE YOUR RESPONSE THE FOLLOWING WAY:
+Decision: Accept/Reject
+Justification: Your reasoning based on your personality here.
+
+Never ever deviate from this format or add any additional commentary!

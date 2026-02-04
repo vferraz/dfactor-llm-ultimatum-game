@@ -62,15 +62,28 @@ dfactor-llm-ultimatum-game/
    - Place them in `analysis/data/`
 
 3. **Install dependencies:**
+
+   **Option A: Using UV (recommended, faster):**
    ```bash
-   pip install pandas numpy matplotlib seaborn scipy statsmodels scikit-learn adjustText
+   # Install UV if you haven't already: https://github.com/astral-sh/uv
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+
+   # Create virtual environment and install dependencies
+   uv venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   uv pip install -e .
    ```
 
-   Or create a virtual environment:
+   **Option B: Using pip with requirements.txt:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   **Option C: Using pip in a virtual environment:**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install pandas numpy matplotlib seaborn scipy statsmodels scikit-learn adjustText
+   pip install -r requirements.txt
    ```
 
 ### Verify Installation
@@ -165,7 +178,7 @@ To replicate the data collection (requires API access):
 
 **Note:** Running experiments requires access to LLM APIs (OpenAI, Anthropic, etc.) and may incur costs. The pre-collected data in OSF is sufficient for reproducing all analyses.
 
-## 📄 Citation
+## 📄 Citation (IN PROGRESS)
 
 If you use this code or data, please cite:
 
@@ -182,7 +195,7 @@ If you use this code or data, please cite:
 
 For questions or issues, please:
 - Open an issue on GitHub
-- Contact: [your email]
+- Contact: visferraz@gmail.com
 
 ## 📜 License
 
@@ -190,5 +203,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Human benchmark data from [original study citation]
+- Human benchmark data from Hilbig & Thielmann (2025).
 - D-Factor framework from Moshagen et al. (2018)

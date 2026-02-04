@@ -1,0 +1,56 @@
+[project]
+name = "dfactor-llm-ultimatum-game"
+version = "1.0.0"
+description = "Reproduction package for D-Factor and the Ultimatum Game in Large Language Models"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+keywords = ["llm", "personality", "d-factor", "ultimatum-game", "behavioral-economics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "scipy>=1.10.0",
+    "statsmodels>=0.14.0",
+    "scikit-learn>=1.3.0",
+    "adjustText>=0.8",
+    "jupyter>=1.0.0",
+    "notebook>=7.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/dfactor-llm-ultimatum-game"
+Repository = "https://github.com/yourusername/dfactor-llm-ultimatum-game"
+"Bug Tracker" = "https://github.com/yourusername/dfactor-llm-ultimatum-game/issues"
+"OSF Data" = "https://osf.io/rvph8/overview"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []

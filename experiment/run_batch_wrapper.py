@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Batch wrapper for running LLM ultimatum game experiments.
+
+Orchestrates multiple (game, model) runs of run_sim_tokens1.py,
+collecting results into a structured output directory with a
+manifest TSV for tracking completed runs.
+
+Usage:
+    python run_batch_wrapper.py --games PdPd,AsAs --rounds 100 \\
+        --models mistralai/Mistral-Nemo-Base-2407 Qwen/Qwen2.5-32B
+"""
 
 import argparse
 import datetime as dt

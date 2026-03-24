@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "D-Factor and the Ultimatum Game in Large Language Models"
+authors:
+  - family-names: Ferraz
+    given-names: "Vinícius"
+    email: visferraz@gmail.com
+  - family-names: Olah
+    given-names: Tamas
+  - family-names: Sazedul
+    given-names: Ratin
+  - family-names: Schmidt
+    given-names: Robert
+  - family-names: Schwieren
+    given-names: Christiane
+version: 1.0.0
+license: MIT
+doi: "10.1016/j.chbah.2026.100281"
+url: "https://github.com/vferraz/dfactor-llm-ultimatum-game"
+repository-code: "https://github.com/vferraz/dfactor-llm-ultimatum-game"
+preferred-citation:
+  type: article
+  title: "When artificial minds negotiate: Dark personality and the Ultimatum Game in large language models"
+  authors:
+    - family-names: Ferraz
+      given-names: "Vinícius"
+    - family-names: Olah
+      given-names: Tamas
+    - family-names: Sazedul
+      given-names: Ratin
+    - family-names: Schmidt
+      given-names: Robert
+    - family-names: Schwieren
+      given-names: Christiane
+  journal: "Computers in Human Behavior: Artificial Humans"
+  year: 2026
+  pages: "100281"
+  publisher:
+    name: Elsevier
+  doi: "10.1016/j.chbah.2026.100281"

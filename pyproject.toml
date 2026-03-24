@@ -3,20 +3,21 @@ name = "dfactor-llm-ultimatum-game"
 version = "1.0.0"
 description = "Reproduction package for D-Factor and the Ultimatum Game in Large Language Models"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [
-    { name = "Your Name", email = "your.email@example.com" }
+    { name = "Vinícius Ferraz", email = "visferraz@gmail.com" },
+    { name = "Tamas Olah" },
+    { name = "Ratin Sazedul" },
+    { name = "Robert Schmidt" },
+    { name = "Christiane Schwieren" },
 ]
 keywords = ["llm", "personality", "d-factor", "ultimatum-game", "behavioral-economics"]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
@@ -43,14 +44,23 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/dfactor-llm-ultimatum-game"
-Repository = "https://github.com/yourusername/dfactor-llm-ultimatum-game"
-"Bug Tracker" = "https://github.com/yourusername/dfactor-llm-ultimatum-game/issues"
+Homepage = "https://github.com/vferraz/dfactor-llm-ultimatum-game"
+Repository = "https://github.com/vferraz/dfactor-llm-ultimatum-game"
+"Bug Tracker" = "https://github.com/vferraz/dfactor-llm-ultimatum-game/issues"
 "OSF Data" = "https://osf.io/rvph8/overview"
+"Paper (DOI)" = "https://doi.org/10.1016/j.chbah.2026.100281"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.black]
+target-version = ["py311"]
+line-length = 120
 
 [tool.uv]
 dev-dependencies = []
